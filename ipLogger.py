@@ -4,8 +4,6 @@
 
 import urllib2
 import time
-from subprocess import Popen
-from random import randint
 import signal
 import os
 
