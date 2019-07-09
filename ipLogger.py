@@ -45,7 +45,7 @@ while True:
                         file.write(data)
                         file.close
                         file.flush()
-                        print ('\n' + dateV + ' IP CHANGED!\a')
+                        print ('\n' + dateV + ' IP CHANGED!')
                         print (str(ip3) + ' WAS THE PREVIOUS IP! \n' + str(ip2) + ' IS THE NEW IP\n\n')
         except:
                 print ("No internet maybe?")
